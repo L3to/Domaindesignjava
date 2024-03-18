@@ -4,6 +4,15 @@ public class endereco {
 	// Visibildade, tipo de dado e os atributos
 	private String logradouro;
 	private int numero;
+	private String complemento;
+	public String getComplemento() {
+		return complemento;
+	}
+
+	public void setComplemento(String complemento) {
+		this.complemento = complemento;
+	}
+
 	private String bairro;
 	private String cep;
 	private String cidade;
